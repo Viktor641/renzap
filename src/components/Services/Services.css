@@ -1,0 +1,315 @@
+.services {
+  background-color: #282828;
+}
+
+.services__cover {
+  display: flex;
+  padding: 32px 0;
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  justify-content: space-between;
+}
+
+.services__info {
+  color: #FFFFFFB3;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.services__text {
+  color: #FFFFFFB3;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding-bottom: 12px;
+  padding-left: 5px;
+}
+
+.services__text_about {
+  color: #FFFFFFB3;
+  word-wrap: break-word;
+  white-space: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.services__text_about::before {
+  content: url('../../images/prime--angle-right.svg');
+  display: inline-block;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+.services__text_adress {
+  color: #FFFFFFB3;
+  word-wrap: break-word;
+  white-space: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.services__text_adress::before {
+  content: url('../../images/prime--envelope.svg');
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.services__text_phone {
+  color: #FFFFFFB3;
+  word-wrap: break-word;
+  white-space: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.services__text_phone::before {
+  content: url('../../images/typcn--phone.svg');
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.services__text_map {
+  color: #FFFFFFB3;
+  word-wrap: break-word;
+  white-space: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.services__text_map::before {
+  content: url('../../images/prime--map-marker.svg');
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.services__button,
+.services__close {
+  display: none;
+}
+
+.services__text_aboutHover,
+.services__text_adressHover,
+.services__text_phoneHover,
+.services__text_mapHover {
+  display: none;
+}
+
+.services__text_about.active,
+.services__text_aboutHover.active {
+  border: none;
+}
+
+.services__text_aboutHover::before {
+  content: url('../../images/prime--angle-right.svg');
+  display: inline-block;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 870px) {
+
+  .services__text_about,
+  .services__text_adress,
+  .services__text_phone,
+  .services__text_map {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+}
+
+.hover:hover {
+  opacity: .8;
+  transition: 0.7s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .services__info {
+    justify-content: space-between;
+  }
+
+  .services__con {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+  .services__text_about,
+  .services__text_adress,
+  .services__text_phone,
+  .services__text_map {
+    display: none;
+  }
+
+  .services__cover {
+    flex-direction: column;
+    padding-bottom: 70px;
+    width: calc(100% - 40px);
+  }
+
+  .services__text {
+    padding: 12px 6px;
+  }
+
+  .services__button {
+    display: block;
+    background-image: url('../../images/buttonDown.svg');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: inherit;
+    background-position: center;
+    padding: 0;
+    object-fit: contain;
+    width: 23px;
+    height: 15px;
+  }
+
+  .services__close {
+    display: block;
+    background-image: url('../../images/CloseDown.svg');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: inherit;
+    background-position: center;
+    padding: 0;
+    object-fit: contain;
+    width: 23px;
+    height: 15px;
+  }
+
+  .services__text_aboutHover.active,
+  .services__text_adressHover.active,
+  .services__text_phoneHover.active,
+  .services__text_mapHover.active {
+    display: block;
+    color: #FFFFFFB3;
+    word-wrap: break-word;
+    white-space: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: none;
+    padding-bottom: 12px;
+    border: none;
+  }
+
+  .services__text_aboutHover,
+  .services__text_adressHover,
+  .services__text_phoneHover,
+  .services__text_mapHover {
+    display: block;
+    color: #FFFFFFB3;
+    word-wrap: break-word;
+    white-space: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    border: none;
+    padding-left: 10px;
+  }
+
+  .services__text_phoneHover::before {
+    content: url('../../images/typcn--phone.svg');
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+
+  .services__text_mapHover::before {
+    content: url('../../images/charm--map-pin.svg');
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+
+  .services__text_adressHover::before {
+    content: url('../../images/prime--envelope.svg');
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .services__text_aboutHover,
+  .services__text_adressHover,
+  .services__text_phoneHover,
+  .services__text_mapHover {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+
+  .services__text_aboutHover.active,
+  .services__text_adressHover.active,
+  .services__text_phoneHover.active,
+  .services__text_mapHover.active {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+
+  .services__info {
+    padding: 0;
+  }
+
+  .services__cover {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: calc(100% - 20px);
+  }
+
+  .services__text {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .services__text_aboutHover,
+  .services__text_adressHover,
+  .services__text_phoneHover,
+  .services__text_mapHover {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .services__text_aboutHover.active,
+  .services__text_adressHover.active,
+  .services__text_phoneHover.active,
+  .services__text_mapHover.active {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .services__cover {
+    padding-bottom: 32px;
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,58 @@
+.privacy {
+  background-color: #F2F2F2;
+}
+
+.privacy-cover {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  line-height: 1.6;
+}
+
+.privacy__table {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.privacy h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.privacy h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.privacy p {
+  margin: 10px 0;
+}
+
+.privacy ul {
+  list-style-type: disc;
+  margin: 10px 0 10px 20px;
+  padding: 0;
+}
+
+.privacy li {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .privacy-cover {
+    padding: 60px 0;
+    width: calc(100% - 30px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .privacy__table {
+    padding: 0;
+  }
+
+  .privacy-cover {
+    padding: 40px 0;
+    width: calc(100% - 30px);
+  }
+}
