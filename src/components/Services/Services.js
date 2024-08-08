@@ -50,14 +50,14 @@ function Services() {
                 410080, Саратовская Область, г. Саратов, ул Им Академика О.к.антонова, д. 8, кв. 139
               </address>
               <a href="tel:+7(987)353-42-63" target="_blank" rel="noopener noreferrer" className='services__text_phoneHover hover'>+7 (987) 353-42-63</a>
-              <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" className='services__text_mapHover hover'>example@example.com</a>
+              <a href="mailto:renzaprenzap@yandex.ru" target="_blank" rel="noopener noreferrer" className='services__text_mapHover hover'>renzaprenzap@yandex.ru</a>
             </>
           )}
           <address className='services__text_adress hover'>
             410080, Саратовская Область, г. Саратов, ул Им Академика О.к.антонова, д. 8, кв. 139
           </address>
           <a href="tel:+7(987)353-42-63" target="_blank" rel="noopener noreferrer" className='services__text_phone hover'>+7 (987) 353-42-63</a>
-          <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" className='services__text_map hover'>example@example.com</a>
+          <a href="mailto:renzaprenzap@yandex.ru" target="_blank" rel="noopener noreferrer" className='services__text_map hover'>renzaprenzap@yandex.ru</a>
         </div>
       </div>
     </div>

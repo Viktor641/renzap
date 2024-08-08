@@ -24,6 +24,7 @@ function AboutUs() {
         </p>
       </div>
     </div>
+    
   )
 }
 

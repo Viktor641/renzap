@@ -13,7 +13,7 @@ function Product() {
           <button className='product__button hover'>Оставить заявку
             <div className='product__menu'>
               <a href="tel:+7(987)353-42-63" target="_blank" rel="noopener noreferrer" className='product__text_phone hover'>+7 (987) 353-42-63</a>
-              <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>example@example.com</a>
+              <a href="mailto:renzaprenzap@yandex.ru" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>renzaprenzap@yandex.ru</a>
             </div>
           </button>
         </div>
@@ -24,7 +24,7 @@ function Product() {
           <button className='product__button hover'>Оставить заявку
             <div className='product__menu'>
               <a href="tel:+7(987)353-42-63" target="_blank" rel="noopener noreferrer" className='product__text_phone hover'>+7 (987) 353-42-63</a>
-              <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>example@example.com</a>
+              <a href="mailto:renzaprenzap@yandex.ru" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>erenzaprenzap@yandex.ru</a>
             </div>
           </button>
         </div>

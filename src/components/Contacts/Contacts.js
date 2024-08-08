@@ -12,7 +12,7 @@ function Contacts() {
         </address>
         <p className='product__text_inn hover'>ОГРН 1236400011792 ИНН 6453174937 <br /> КПП 645301001</p>
         <a href="tel:+7(987)353-42-63" target="_blank" rel="noopener noreferrer" className='product__text_phone hover'>+7 (987) 353-42-63</a>
-        <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>example@example.com</a>
+        <a href="mailto:renzaprenzap@yandex.ru" target="_blank" rel="noopener noreferrer" className='product__text_map hover'>renzaprenzap@yandex.ru</a>
       </div>
     </div>
   )
