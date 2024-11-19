@@ -10,6 +10,7 @@ import Projects from '../Projects/Projects';
 import Contacts from '../Contacts/Contacts';
 import Slider from '../Slider/Slider';
 import Privacy from '../Privacy/Privacy';
+import Sponsor from '../Sponsor/Sponsor'; 
 
 function App() {
   const location = useLocation();
@@ -46,6 +47,7 @@ function App() {
             <>
               <Header height="100%" color="black" />
               <AboutUs />
+              <Sponsor />
               <Services />
               <Footer />
             </>
